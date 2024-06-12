@@ -2,5 +2,8 @@ import tkinter as tk
 
 def main(*args):
     window = None
-    #window = tk.Tk()
+    window = tk.Tk()
     assert window != None
+    window.mainloop()
+
+main()

@@ -1,4 +1,4 @@
-#!/Users/crisjarvis/Documents/Python/lets_tinker/venv/bin/python
+#!/Users/crisjarvis/Documents/Python/lets_tinker/venv/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys
