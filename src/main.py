@@ -2,7 +2,11 @@ import tkinter as tk
 
 def button_pushed():
     print('button has been pushed')
-    exit()
+    name = entry.get()
+    print(name)
+    #text.insert("I AM A VAMPIRE BAT")
+    #text.pack()
+    #exit()
 
 window = None
 window = tk.Tk()
