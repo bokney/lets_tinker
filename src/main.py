@@ -3,8 +3,10 @@ import tkinter as tk
 def button_pushed():
     print('button has been pushed')
     name = entry.get()
+    entry.selection_clear()
+    entry.delete(0, tk.END)
     print(name)
-    #text.insert("I AM A VAMPIRE BAT")
+    text.insert("1.0", name + "\n")
     #text.pack()
     #exit()
 
@@ -19,7 +21,8 @@ label = tk.Label(master=window,
                  text="Welcome to this magnificent piece of software!!")
 label.pack()
 
-text = tk.Text(master=window)
+text = tk.Text(master=window,
+               )
 text.pack()
 
 label = tk.Label(master=window,
